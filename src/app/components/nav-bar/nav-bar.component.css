@@ -1,0 +1,29 @@
+.nav-link {
+    color: white;
+    border-radius: 10px;
+    margin: 0px 10px 0px 10px;
+}
+
+.nav-link:hover {
+    background-color: white;
+    color: black;
+}
+
+.nav-link.show, .nav-link.active {
+    background-color: white;
+    color: black;
+}
+
+.dropdown-toggle.show {
+    background-color: black;
+    color: white;
+}
+
+.dropdown-item {
+    color: black;
+}
+
+.dropdown-item:hover {
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,13 @@
+#legnoimg {
+    background-image: url('https://www.hinghamanchor.com/wp-content/uploads/2023/04/Inly-Climbing-Tower-768x1024.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+}
+
+#rocciaimg {
+    background-image: url('https://i0.wp.com/sunderlandwall.com/wp-content/uploads/2021/05/tower2-1-rotated.jpg?resize=900%2C1200&ssl=1');
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+}

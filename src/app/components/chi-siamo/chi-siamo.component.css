@@ -1,0 +1,13 @@
+#chisiamoimg {
+    background-image: url('https://www.mondonotebook.it/img/cms/Homepage%20pics/chi%20siamo%20banner.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+}
+
+#arrampicatatuttiimg {
+    background-image: url('https://www.vagoxmonti.it/wp-content/uploads/2021/06/rockspot_arrampicata_milanoperibambini.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+}

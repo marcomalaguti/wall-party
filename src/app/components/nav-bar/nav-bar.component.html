@@ -1,0 +1,19 @@
+<nav class="navbar navbar-expand-lg fixed-top bg-black" (scroll)="onWindowScroll();">
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style="color: white; background-color: white;">
+    <span class="navbar-toggler-icon" style="color: white;"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+
+      <app-nav-item [navItem]="{ text:'Home', route: '/'}"></app-nav-item>
+      <app-nav-item [navItem]="{text:'Chi Siamo', route:'/chi-siamo'}"></app-nav-item>
+      <app-nav-dropdown-item text="Climbing Towers"
+        [items]="[{text:'Lead', route:'/lead'}, {text:'Boulder', route:'/boulder'}]"></app-nav-dropdown-item>
+      <app-nav-dropdown-item text="Lines"
+        [items]="[{text:'Zip Line', route:'/zip-line'}, {text:'Slack Line', route:'/slack-line'}]"></app-nav-dropdown-item>
+      <app-nav-item [navItem]="{ text:'Certificazioni', route: '/certificazioni'}"></app-nav-item>
+
+    </ul>
+  </div>
+</nav>
